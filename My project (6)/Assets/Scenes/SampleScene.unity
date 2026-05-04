@@ -444,11 +444,24 @@ SphereCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!4 &963300396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044755293}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.406967, y: -0, z: -0, w: 0.91344285}
+  m_LocalPosition: {x: 5.37, y: 2.242797, z: -5.757711}
+  m_LocalScale: {x: 83.21061, y: 1, z: 11.581}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 48.029, y: 0, z: 0}
 --- !u!23 &1302365111
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -502,21 +515,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044755293}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &963300396
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044755293}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.406967, y: -0, z: -0, w: 0.91344285}
-  m_LocalPosition: {x: 5.37, y: 2.242797, z: -5.757711}
-  m_LocalScale: {x: 5.0498, y: 1, z: 11.581}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 48.029, y: 0, z: 0}
 --- !u!1 &2044755293
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,9 +524,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 963300396}
-  - component: {fileID: 963300395}
-  - component: {fileID: 963300394}
   - component: {fileID: 963300393}
+  - component: {fileID: 1302365112}
+  - component: {fileID: 1302365111}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -543,4 +541,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1302365113}
+  - {fileID: 963300396}
